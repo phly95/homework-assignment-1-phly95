@@ -5,3 +5,6 @@ myHeading.textContent = 'Hello world!';
 var audio = document.getElementById("music");
 audio.volume = 0.1;
 // From https://stackoverflow.com/questions/33747398/html-audio-tag-volume
+
+let finisher = document.getElementById(99);
+finisher.innerHTML = '<img src="images/foxtake.gif"></img>';
